@@ -1,0 +1,35 @@
+.header-title {
+    text-align: center;
+    padding-top: 30px;
+    font-size: 50px;
+    letter-spacing: 5px;
+}
+
+.lights {
+    display: flex;
+    gap: 40px;
+    justify-content: center;
+    padding-top: 30px;
+}
+
+.lights div {
+    width: 100px;
+    height: 100px;
+    border-radius: 50px;
+    transition: all 2s;
+}
+
+.lights-red:hover {
+    background-color: rgb(224, 58, 58);
+    cursor: pointer;
+}
+
+.lights-green:hover {
+    background-color: rgb(55, 214, 55);
+    cursor: pointer;
+}
+
+.lights-blue:hover {
+    background-color: rgb(61, 61, 216);
+    cursor: pointer;
+}
